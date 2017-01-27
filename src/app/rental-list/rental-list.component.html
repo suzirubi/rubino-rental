@@ -1,3 +1,12 @@
-<p>
-  rental-list works!
-</p>
+<h2>Current listings</h2>
+
+<div *ngFor="let rental of rentals | async" (click)=goToDetailPage(rental) class="panel panel-default">
+  <div class="panel-body">
+    <img src="{{rental.hero}}" alt="" height="250px"><br>
+    <h3><em>{{rental.title}}</em></h3>
+    <p>{{rental.street}}<br>
+      {{rental.citystatezip}}</p>
+    <p>Bedrooms: {{rental.bedroom}}<br>
+      Bathrooms: {{rental.bath}}</p>
+  </div>
+</div>

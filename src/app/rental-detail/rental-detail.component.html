@@ -1,0 +1,10 @@
+<div>
+  <img src="{{(rentalToDisplay | async)?.hero}}" alt="" height="250px"><br>
+
+  <h3>{{(rentalToDisplay | async)?.title}}</h3>
+  <p>{{(rentalToDisplay | async)?.description}}</p>
+  <h4>${{(rentalToDisplay | async)?.rent}}</h4>
+  <h4>${{(rentalToDisplay | async)?.deposit}}</h4>
+  <h4>{{(rentalToDisplay | async)?.pet}}</h4>
+  <h4>${{(rentalToDisplay | async)?.contact}}</h4>
+</div>
