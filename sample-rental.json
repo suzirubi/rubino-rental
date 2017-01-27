@@ -1,0 +1,79 @@
+
+{ "rentals": [{
+    "category": 1,
+    "title": "Top-story duplex with garden view",
+    "description": "Dining room with view of garden, two-level duplex with master bedroom on third story.",
+    "street": "1116 SE 30th Avenue",
+    "citystatezip": "Portland, OR 97214",
+    "hero": "http://allportlandhomes.com/files/2012/09/Hawthorne-Bungalow-Portland-Oregon.jpg",
+    "bedroom": 2,
+    "bath": 1,
+    "rent": 1400,
+    "deposit": 1400,
+    "pets": "pets okay",
+    "contact": "503-329-4783"
+  }, {
+    "category": 1,
+    "title": "Vintage Urban Farmhouse with Organic Garden",
+    "description": "One acre of beautiful trees and sunny area for large organic garden. Greenhouse, stream access, garage with workshop and potting shed. Two fireplaces and large daylight basement. On Portland's SE border, easy access to downtown Portland on bikepath.",
+    "street": "9711 SE Wichita Avenue",
+    "citystatezip": "Milwaukie, OR 97222",
+    "hero": "http://www.urbanorganicgardener.com/wp-content/uploads/2015/07/DSC_3975.jpg",
+    "bedroom": 3,
+    "bath": 1.5,
+    "rent": 2000,
+    "deposit": 2000,
+    "pets": "pets okay",
+    "contact": "503-267-8620"
+  }, {
+    "category": 2,
+    "title": "Japanese Retreate",
+    "description": "Large studio with garden access, antique japanese furniture yet basic western comforts. Access to garden with koi pond and several water features",
+    "street": "1114 SE 30th Avenue",
+    "citystatezip": "Portland, OR 97214",
+    "hero": "https://a0.muscache.com/im/pictures/53052304/7047ca41_original.jpg?aki_policy=x_medium",
+    "bedroom": 1,
+    "bath": 1,
+    "rent": 75,
+    "deposit": 0,
+    "pets": "no pets",
+    "contact": "503-329-4783"
+  }],
+  "expenses": [{
+      "category": 1,
+      "type": "Utilties",
+      "description": "Electricity",
+      "amount": 50,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/ReceiptSwiss.jpg",
+      "comments": "usual bill paid by tenant, paid in interim"
+    }, {
+      "category": 2,
+      "type": "Taxes",
+      "description": "Property",
+      "amount": 4000,
+      "image": "http://portlandrealestateblog.com/wp-content/uploads/2009/10/Web-Tax-Statement-09-copy2.jpg",
+      "comments": "paid all to save money"
+    }, {
+      "category": 2,
+      "type": "Repairs",
+      "description": "Tree fell down, stump remaining",
+      "amount": 600,
+      "image": "http://kptv.images.worldnow.com/images/12168202_G.jpg",
+      "comments": "landlord and tennant insurance will help cover damage"
+    },
+    {
+     "category": 1,
+     "type": "Insurance",
+     "description": "Landlord insurance",
+     "amount": 8000,
+     "image": "http://kptv.images.worldnow.com/images/12168202_G.jpg",
+     "comments": "landlord and tennant insurance will help cover damage"
+   }, {
+      "category": 3,
+      "type": "Repairs",
+      "description": "Reroof and fix gutters",
+      "amount": 10000,
+      "image": "http://cdn.hloom.com/images/Sales-Invoice-with-shipping-details.jpg",
+      "comments": "took several calls to get this done"
+    }]
+}
