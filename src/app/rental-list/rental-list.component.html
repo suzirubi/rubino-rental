@@ -1,6 +1,12 @@
 <h2>Current listings</h2>
-
-<div *ngFor="let rental of rentals | async"  class="panel panel-default">
+<div>
+<select (change)="onChange($event.target.value)">
+  <option value="allRentals" selected="selected">All Listings</option>
+  <option value="long-term">Long-Term Rentals</option>
+  <option value="short-term">Short-Term Rentals</option>
+</select>
+</div>
+<div *ngFor="let rental of rentals | async | type: filterByType"  class="panel panel-default">
   <div class="panel-body">
     <img src="{{rental.hero}}" alt="" height="250px"><br>
     <h3 (click)=goToDetailPage(rental)><em>{{rental.title}}</em></h3>

@@ -14,6 +14,12 @@ export class RentalListComponent implements OnInit {
   rentals: FirebaseListObservable<any[]>;
   currentRoute: string = this.router.url;
 
+  filterByType: string = "allRentals";
+
+  onChange(optionFromMenu) {
+    this.filterByType = optionFromMenu;
+  }
+
   constructor (private router: Router, private rentalService: RentalService) { }
 
   ngOnInit() {

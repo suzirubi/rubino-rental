@@ -12,6 +12,8 @@ import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AdminComponent } from './admin/admin.component';
 import { EditRentalComponent } from './edit-rental/edit-rental.component';
+import { TypePipe } from './type.pipe';
+
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -27,7 +29,8 @@ export const firebaseConfig = {
     RentalListComponent,
     RentalDetailComponent,
     AdminComponent,
-    EditRentalComponent
+    EditRentalComponent,
+    TypePipe
   ],
   imports: [
     BrowserModule,
