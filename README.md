@@ -6,23 +6,29 @@ _*Project Name: Angular2 Extended Independent Project *_
 _*Project Author: Suzi Rubino*_
 
 ##Club Manager (am using a rental manager model instead) Project Description:
-Create a website that manages the roster of a club, team, or group. User behaviors necessary:
+Create a website that manages the listings for a number of properties managed by one family. User behaviors necessary:
 
-- [ ] As a user, I'd like to visit a page to see a list of all team or club members (rental properties).
+- [x] As a user, I'd like to visit a page to see a list of all team or club members (rental properties).
 
-- [ ] As a user, I'd like to click a team or club member's entry in the list to visit their profile page, which should include more details about them (details about properties).
+- [ ] As a manager, I'd like to visit a page to see a list of all expenses for all properties (expenses).
+
+- [ ] As a user, I'd like to click a listing to visit its detail page, which includes details like rent, deposit and if pets are ok.
+
+- [ ] As a manager, I'd like to click an expense to see more details about that specific expense.
 
 - [ ] As a user, I'd like the option to visit an "About" page that explains what the management firm is, and what it does.
 
 - [ ] As a user, I'd like all data persisted in a database, so it's always there when I need it.
 
-- [ ] As a user, I'd like to filter the list of users (properties) by their particular role in the group, or some other information/category (addresses).
+- [ ] As a user, I'd like to filter the list of users (properties) by their type (long-term, short-term, dates available).
 
-- [ ] As an administrator, I want to add new users to the club (new expenses for each property). (User authentication is not required).
+- [ ] As a manager, I want to add new expenses.
 
-- [ ] As an administrator, I want to edit user profiles (property images and information), in case I make a mistake, or need to update their details.
+- [ ] As a manager, I'd like to be able to filter the list of expenses by their type.
 
-- [ ] As an administrator, need the option to delete a user (property), in case it is no longer available.
+- [ ] As a manager, I want to edit user both the properties and expenses if they need to be updated.
+
+- [ ] As a manager I want to be able to delete a property if has been sold.
 
 ###Further Exploration
 
