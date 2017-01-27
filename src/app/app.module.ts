@@ -10,6 +10,8 @@ import { routing } from './app.routing';
 import { RentalDetailComponent } from './rental-detail/rental-detail.component';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
+import { AdminComponent } from './admin/admin.component';
+import { EditRentalComponent } from './edit-rental/edit-rental.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -23,7 +25,9 @@ export const firebaseConfig = {
     AppComponent,
     AboutComponent,
     RentalListComponent,
-    RentalDetailComponent
+    RentalDetailComponent,
+    AdminComponent,
+    EditRentalComponent
   ],
   imports: [
     BrowserModule,

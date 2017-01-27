@@ -1,6 +1,5 @@
-
 { "rentals": [{
-    "category": 1,
+    "rentaltype": "long-term",
     "title": "Top-story duplex with garden view",
     "description": "Dining room with view of garden, two-level duplex with master bedroom on third story.",
     "street": "1116 SE 30th Avenue",
@@ -13,7 +12,7 @@
     "pets": "pets okay",
     "contact": "503-329-4783"
   }, {
-    "category": 1,
+    "rentaltype": "long-term",
     "title": "Vintage Urban Farmhouse with Organic Garden",
     "description": "One acre of beautiful trees and sunny area for large organic garden. Greenhouse, stream access, garage with workshop and potting shed. Two fireplaces and large daylight basement. On Portland's SE border, easy access to downtown Portland on bikepath.",
     "street": "9711 SE Wichita Avenue",
@@ -26,10 +25,10 @@
     "pets": "pets okay",
     "contact": "503-267-8620"
   }, {
-    "category": 2,
-    "title": "Japanese Retreate",
+    "rentaltype": "short-term",
+    "title": "Japanese-style Garden Retreat",
     "description": "Large studio with garden access, antique japanese furniture yet basic western comforts. Access to garden with koi pond and several water features",
-    "street": "1114 SE 30th Avenue",
+    "street": "1114 S.E. 30th Avenue",
     "citystatezip": "Portland, OR 97214",
     "hero": "https://a0.muscache.com/im/pictures/53052304/7047ca41_original.jpg?aki_policy=x_medium",
     "bedroom": 1,

@@ -1,0 +1,79 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Edit Your Rental</h3>
+  </div>
+  <div class="panel-body">
+    <div>
+      <div>
+        <label>Edit the type rental this property is:</label>
+        <select [(ngModel)]="rentalToDisplay.rentaltype">
+          <option value="long-term" selected="selected"> long-term</option>
+          <option value="short-term"> short-term </option>
+        </select>
+      <div>
+        <label>Edit Rental Headline:</label>
+        <br>
+        <input [(ngModel)]="rentalToDisplay.title">
+      </div>
+
+      <div>
+        <label>Edit Rental Description</label>
+        <br>
+        <textarea [(ngModel)]="rentalToDisplay.description"></textarea>
+      </div>
+      <div>
+        <label>Edit Rental Hero Image URL:</label>
+        <br>
+        <input [(ngModel)]="rentalToDisplay.street">
+      </div>
+      <div>
+        <label>Edit Rental Hero Image URL:</label>
+        <br>
+        <input [(ngModel)]="rentalToDisplay.citystatezip">
+      </div>
+
+      <div>
+        <label>Edit Rental Hero Image URL:</label>
+        <br>
+        <input [(ngModel)]="rentalToDisplay.hero">
+      </div>
+      <div>
+        <label>Edit number of bedrooms:</label>
+        <br>
+        <input [(ngModel)]="rentalToDisplay.bedroom">
+      </div>
+      <div>
+        <label>Edit number of baths:</label>
+        <br>
+        <input [(ngModel)]="rentalToDisplay.bath">
+      </div>
+      <div>
+        <label>Edit rent per month:</label>
+        <br>
+        <input [(ngModel)]="rentalToDisplay.rent">
+      </div>
+      <div>
+        <label>Edit deposit:</label>
+        <br>
+        <input [(ngModel)]="rentalToDisplay.deposit">
+      </div>
+      <div>
+        <label>Edit pets ok:</label>
+        <br>
+        <input [(ngModel)]="rentalToDisplay.pet">
+      </div>
+      <div>
+        <label>Edit pets ok:</label>
+        <br>
+        <input [(ngModel)]="rentalToDisplay.contact">
+      </div>
+      <div>
+        <p><br>
+          <button (click)="beginUpdatingRental(rentalToDisplay)">Update</button><br><br>
+          <button (click)="beginDeletingRental(rentalToDisplay)">Delete</button>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

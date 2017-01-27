@@ -1,0 +1,75 @@
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Add New Rental</h3>
+  </div>
+  <div class="panel-body">
+    <div>
+      <div>
+        <label>Property Type (long-term or short-term):</label>
+        <br>
+        <input #newRentaltype>
+      </div>
+
+      <div>
+        <label>Headline:</label>
+        <br>
+        <input #newTitle>
+      </div>
+
+      <div>
+        <label>Description:</label>
+        <br>
+        <textarea #newDescription></textarea>
+      </div>
+
+      <div>
+        <label>Address:</label>
+        <br>
+        <input #newStreet>
+        <input #newCitystatezip>
+      </div>
+
+      <div>
+        <label>Hero Image:</label>
+        <br>
+        <input #newHero>
+      </div>
+      <div>
+        <label>Number of Bedrooms:</label>
+        <br>
+        <input #newBedroom>
+      </div>
+      <div>
+        <label>Number of Baths:</label>
+        <br>
+        <input #newBath>
+      </div>
+      <div>
+        <label>Rent (month or daily):</label>
+        <br>
+        <input #newRent>
+      </div>
+      <div>
+        <label>Deposit (0 if none):</label>
+        <br>
+        <input #newDeposit>
+      </div>
+      <div>
+        <label>Pets OK? (can add qualifier):</label>
+        <br>
+        <textarea #newPet></textarea>
+      </div>
+      <div>
+        <label>Contact Number:</label>
+        <br>
+        <textarea #newContact></textarea>
+      </div>
+      <button (click)="submitForm(newRentaltype.value, newTitle.value, newDescription.value, newStreet.value, newCitystatezip.value, newHero.value, newBedroom.value, newBath.value, newRent.value, newDeposit.value, newPet.value, newContact.value); newRentaltype.value=''; newTitle.value=''; newDescription.value=''; newStreet.value=''; newCitystatezip.value=''; newHero.value=''; newBedroom.value=''; newBath.value=''; newRent.value=''; newDeposit.value=''; newPet.value=''; newContact.value=''">Add</button>
+    </div>
+  </div>
+</div>
+
+<div>
+  <app-rental-list></app-rental-list>
+</div>
