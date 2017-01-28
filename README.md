@@ -83,8 +83,7 @@ You will need the following things properly installed on your computer.
 * [Node.js](https://nodejs.org/) (with NPM)
 * [Bower](https://bower.io/)
 * [Typescript](https://www.typescriptlang.org/) (with NPM)
-* [Atom and Atom Typescript Package](https://atom.io/packages/atom-typescript/)
-
+* [Atom and Atom Typescript Package](https://atom.io/packages/atom-typescript/)  (optional)
 ## API Key
 
 This application uses a database tool called Firebase to store and manage its data. Firebase is a cloud services provider that offers real time databases. It constantly updates and syncs whenever the data changes.
