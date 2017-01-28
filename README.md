@@ -5,7 +5,7 @@ _*Project Name: Angular2 Extended Independent Project *_
 
 _*Project Author: Suzi Rubino*_
 
-##Club Manager (am using a rental manager model instead) Project Description:
+##Rental Property Manager (this project uses a rental manager model instead of club manager) Project Description:
 Create a website that manages the listings for a number of properties managed by one family. User behaviors necessary:
 
 - [x] As a user, I'd like to visit a page to see a list of rental properties.
@@ -20,7 +20,7 @@ Create a website that manages the listings for a number of properties managed by
 
 - [x] As a user, I'd like all data persisted in a database, so it's always there when I need it.
 
-- [ ] As a user, I'd like to filter the list of users (properties) by their type (long-term, short-term, dates available).
+- [x] As a user, I'd like to filter the list of users (properties) by their type (long-term, short-term, dates available).
 
 - [ ] As a manager, I want to add new expenses.
 
@@ -34,7 +34,7 @@ Create a website that manages the listings for a number of properties managed by
 
 - [ ] Add functionality to keep track of expenses
 
-- [ ] Add a message board area (repair/maintenance task list or possibly guest responses)
+- [ ] Add a message board area (repair/maintenance task list or possibly guest responses).
 
 - [ ] Include an area called "announcements", "events", "games" (local things to do, or possibly guest responses).
 
@@ -44,23 +44,23 @@ Create a website that manages the listings for a number of properties managed by
 
 ###Objectives
 
-- [ ] Components are used to create display and behavior for templates.
+- [x] Components are used to create display and contain behavior for templates.
 
-- [ ] A router is used to navigate between different pages, including at least one dynamic route.
+- [x] A router is used to navigate between different pages, including at least one dynamic route.
 
-- [ ] A service shares data between multiple components.
+- [x] A service shares data between multiple components.
 
-- [ ] Application can create, edit, and delete instances of a model, persisting all changes in Firebase.
+- [x] Application can create, edit, and delete instances of a model, persisting all changes in Firebase.
 
-- [ ] Data is retrieved from Firebase and displayed in the application.
+- [x] Data is retrieved from Firebase and displayed in the application.
 
-- [ ] Models can be filtered using a pipe.
+- [x] Models can be filtered using a pipe.
 
-- [ ]Project demonstrates understanding of week's concepts. If prompted, you are able to discuss your code with an instructor using correct terminology.
+- [x] Project demonstrates understanding of week's concepts. If prompted, you are able to discuss your code with an instructor using correct terminology.
 
-- [ ] Project is in a polished, portfolio-quality state.
+- [x] Project is in a polished, portfolio-quality state.
 
-- [ ] Required functionality was in place by the Friday deadline.
+- [x] Required functionality was in place by the Friday deadline.
 
 
 # RubinoRentals
