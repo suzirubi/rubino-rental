@@ -1,3 +1,6 @@
+<div>
+  <app-rental-list></app-rental-list>
+</div>
 
 <div class="panel panel-default">
   <div class="panel-heading">
@@ -7,8 +10,10 @@
     <div>
       <div>
         <label>Property Type (long-term or short-term):</label>
-        <br>
-        <input #newRentaltype>
+        <select #newRentaltype>
+          <option type="text" [value]="'long-term'">long-term</option>
+          <option type="text" [value]="'short-term'">short-term</option>
+        </select>
       </div>
 
       <div>
@@ -38,22 +43,22 @@
       <div>
         <label>Number of Bedrooms:</label>
         <br>
-        <input #newBedroom>
+        <input type="number" #newBedroom>
       </div>
       <div>
         <label>Number of Baths:</label>
         <br>
-        <input #newBath>
+        <input type="number" #newBath>
       </div>
       <div>
         <label>Rent (month or daily):</label>
         <br>
-        <input #newRent>
+        <input type="number" #newRent>
       </div>
       <div>
         <label>Deposit (0 if none):</label>
         <br>
-        <input #newDeposit>
+        <input type="number" #newDeposit>
       </div>
       <div>
         <label>Pets OK? (can add qualifier):</label>
@@ -68,8 +73,4 @@
       <button (click)="submitForm(newRentaltype.value, newTitle.value, newDescription.value, newStreet.value, newCitystatezip.value, newHero.value, newBedroom.value, newBath.value, newRent.value, newDeposit.value, newPet.value, newContact.value); newRentaltype.value=''; newTitle.value=''; newDescription.value=''; newStreet.value=''; newCitystatezip.value=''; newHero.value=''; newBedroom.value=''; newBath.value=''; newRent.value=''; newDeposit.value=''; newPet.value=''; newContact.value=''">Add</button>
     </div>
   </div>
-</div>
-
-<div>
-  <app-rental-list></app-rental-list>
 </div>

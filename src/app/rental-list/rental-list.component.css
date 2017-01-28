@@ -1,0 +1,19 @@
+button {
+  margin-left: 1em;
+  margin-bottom: 1em;
+  margin-top: 0em;
+}
+
+.boldUpper {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+select {
+  margin-bottom: 1em;
+}
+
+.rentalType {
+  color: grey;
+  margin-bottom: -.25em;
+}

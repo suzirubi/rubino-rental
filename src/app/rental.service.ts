@@ -35,7 +35,7 @@ export class RentalService {
                                     bath: localUpdatedRental.bath,
                                     rent: localUpdatedRental.rent,
                                     deposit: localUpdatedRental.deposit,
-                                    pet: localUpdatedRental.pet,
+                                    pets: localUpdatedRental.pet,
                                     contact: localUpdatedRental.contact
                                     });
   }

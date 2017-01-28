@@ -1,0 +1,15 @@
+.phone {
+  color: red;
+}
+
+.boldUpper {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.smallPrint {
+  font-style: italic;
+  font-size: .8em;
+  text-transform: capitalize;
+  font-weight: normal;
+}

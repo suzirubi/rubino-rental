@@ -1,5 +1,75 @@
-.navbar {
+
+/* navbar */
+.navbar-default {
+    background-color: #D5DFD8;
+    border-color:  #D5DFD8;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #777;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color:  #D5DFD8;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color:  #D5DFD8;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color:  #D5DFD8;
+    border-bottom-color:  #D5DFD8;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color:  #D5DFD8;
+    border-bottom-color:  #D5DFD8;
+}
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color:  #D5DFD8;
+    border-bottom-color:  #D5DFD8;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color:  #D5DFD8;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color:  #D5DFD8;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:  #D5DFD8;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+}.navbar {
   height: 100px;
+  background-color:  #D5DFD8;
 }
 
 .navbar-header {
@@ -19,20 +89,23 @@
   padding: 15px;
 }
 
-.boldUpper {
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: .9em;
-}
-.smallPrint {
-  font-style: italic;
-  font-size: .8em;
-}
 .footer {
   position: fixed;
   bottom: 0;
   width: 100%;
   height: 60px;
-  background-color: #f5f5f5;
+  background-color:  #D5DFD8;
   padding: 15px;
+}
+.numberInput input {
+  width: 25%;
+}
+
+body {
+  background-color:  #D5DFD8;
+  color: #2F4040;
+}
+
+p {
+  color: gray;
 }

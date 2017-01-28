@@ -1,27 +1,26 @@
 <h2>Current listings</h2>
-<div>
 <select (change)="onChange($event.target.value)">
   <option value="allRentals" selected="selected">All Listings</option>
   <option value="long-term">Long-Term Rentals</option>
   <option value="short-term">Short-Term Rentals</option>
 </select>
-</div>
 <div *ngFor="let rental of rentals | async | type: filterByType"  class="panel panel-default">
   <div class="panel-body">
     <img src="{{rental.hero}}" alt="" height="250px"><br>
-    <h3 (click)=goToDetailPage(rental)><em>{{rental.title}}</em></h3>
+    <h3 (click)=goToDetailPage(rental)>{{rental.title}}</h3>
     <p>{{rental.street}}<br>
       {{rental.citystatezip}}</p>
     <p>Bedrooms: {{rental.bedroom}}<br>
       Bathrooms: {{rental.bath}}</p>
-    <p class="boldUpper">Rent: ${{rental.rent}}<br></p>
-    <p class="smallPrint"><span class="boldUpper">{{rental.rentaltype}}</span>: Short-term rents by day (3-day minimum), long-term begins with a one-year lease and rents month-to-month thereafter</p>
+    <p class="boldUpper">Rent: ${{rental.rent}}</p>
+    <p class="boldUpper rentalType">{{rental.rentaltype}}</p>
   </div>
   <div *ngIf="currentRoute === '/'">
     <button (click)="goToDetailPage(rental)">More Details</button>
   </div>
-<div *ngIf="currentRoute === '/admin'">
-  <p> {{rental.title}}</p>
-  <app-edit-rental [rentalToDisplay]="rental"></app-edit-rental>
-</div>
+  <div *ngIf="currentRoute === '/admin'" class="panel-body">
+    <hr>
+    <p>Above rule is how listing appears on main page, detail page contains text in edit form below:<br></p>
+    <app-edit-rental [rentalToDisplay]="rental"></app-edit-rental>
+  </div>
 </div>
