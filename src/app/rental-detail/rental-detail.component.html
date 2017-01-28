@@ -1,12 +1,13 @@
-<div>
-  <img src="{{(rentalToDisplay | async)?.hero}}" alt="" height="250px"><br>
+<div class="panel panel-default">
+  <div class="panel-body">
+    <img src="{{(rentalToDisplay | async)?.hero}}" alt="" height="250px"><br>
 
-  <h3>{{(rentalToDisplay | async)?.title}}</h3>
-  <p>{{(rentalToDisplay | async)?.description}}</p>
-  <h6>Rent is ${{(rentalToDisplay | async)?.rent}}</h6>
-  <h6>The deposit is ${{(rentalToDisplay | async)?.deposit}} and due on move in</h6>
-  <h6>{{(rentalToDisplay | async)?.pets}}</h6>
-  <h4>Please call <span class="phone">{{(rentalToDisplay | async)?.contact}}</span></h4>
-  <p class="boldUpper">{{(rentalToDisplay | async)?.rentaltype}}: <span class="smallPrint"> Short-term rents by day (3-day minimum), long-term begins with a one-year lease and rents month-to-month thereafter</span></p>
-
+    <h3>{{(rentalToDisplay | async)?.title}}</h3>
+    <p>{{(rentalToDisplay | async)?.description}}</p>
+    <h6>Rent is ${{(rentalToDisplay | async)?.rent}}</h6>
+    <h6>The deposit is ${{(rentalToDisplay | async)?.deposit}} and due on move in</h6>
+    <h6>{{(rentalToDisplay | async)?.pets}}</h6>
+    <h4>Please call <span class="phone">{{(rentalToDisplay | async)?.contact}}</span></h4>
+    <p class="boldUpper">{{(rentalToDisplay | async)?.rentaltype}}: <span class="smallPrint"> Short-term rents by day (3-day minimum), long-term begins with a one-year lease and rents month-to-month thereafter</span></p>
+  </div>
 </div>

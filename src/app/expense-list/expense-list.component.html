@@ -1,0 +1,28 @@
+<h2>2017 Expenses</h2>
+<select (change)="onChange($event.target.value)">
+  <option value="allExpenses" selected="selected">All Expenses</option>
+  <option value="Utilities">Utilities</option>
+  <option value="Taxes">Taxes</option>
+  <option value="Repairs">Repairs</option>
+</select>
+<div *ngFor="let expense of expenses | async"  class="panel panel-default">
+  <div class="panel-body">
+    <h3 (click)=goToDetailPage(expense)>{{expense.title}}</h3>
+    <p>{{expense.category}}(date of expense)</p>
+    <p class="boldUpper rentalType">CATEGORY OF EXPENSE: {{expense.type}}</p>
+    <p class="boldUpper">AMOUNT: ${{expense.amount}}</p>
+  </div>
+  <div>
+    <button (click)="goToDetailPage(expense)">More Details</button>
+  </div>
+  <!-- <app-edit-expense [expenseToDisplay]="expense"></app-edit-expense> -->
+</div>
+
+
+<footer class="footer">
+  <div class="container">
+    <a class="text-muted" routerLink="admin">New/Delete and Edit Listings</a><br>
+    <a class="text-muted" routerLink="expense-list">Expenses</a>
+
+  </div>
+</footer>

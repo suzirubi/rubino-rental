@@ -1,0 +1,15 @@
+  <div class="panel panel-default">
+    <div class="panel-body">
+
+      <h3>{{(expenseToDisplay | async)?.title}}</h3>
+      <p>{{(expenseToDisplay | async)?.category}}(date of expense)</p>
+      <p class="boldUpper rentalType">CATEGORY OF EXPENSE: {{(expenseToDisplay | async)?.type}}</p>
+      <p class="boldUpper">AMOUNT: ${{(expenseToDisplay | async)?.amount}}</p>
+
+      <p class="boldUpper rentalType">Comments: {{(expenseToDisplay | async)?.comments}}</p>
+      <p>Expense receipt or example if any:<br>
+      <img src="{{(expenseToDisplay | async)?.image}}" alt="" height="150px"><br></p>
+
+
+    </div>
+  </div>

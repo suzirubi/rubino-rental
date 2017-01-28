@@ -13,6 +13,8 @@ import { AngularFireModule } from 'angularfire2';
 import { AdminComponent } from './admin/admin.component';
 import { EditRentalComponent } from './edit-rental/edit-rental.component';
 import { TypePipe } from './type.pipe';
+import { ExpenseListComponent } from './expense-list/expense-list.component';
+import { ExpenseDetailComponent } from './expense-detail/expense-detail.component';
 
 
 export const firebaseConfig = {
@@ -30,7 +32,9 @@ export const firebaseConfig = {
     RentalDetailComponent,
     AdminComponent,
     EditRentalComponent,
-    TypePipe
+    TypePipe,
+    ExpenseListComponent,
+    ExpenseDetailComponent
   ],
   imports: [
     BrowserModule,
