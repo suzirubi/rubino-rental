@@ -17,3 +17,7 @@ select {
   color: grey;
   margin-bottom: -.25em;
 }
+h2 {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+}

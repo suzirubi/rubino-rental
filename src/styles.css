@@ -1,3 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Antic|Antic+Slab|Merriweather+Sans:300,300i,400,400i,700,700i,800,800i|Merriweather:300,300i,400,400i,700,700i,900|Oswald:300,400|PT+Sans+Caption:400,700|PT+Sans+Narrow:400,700|PT+Sans:400,400i,700,700i|Roboto:300,300i,400,400i");
+
+
+/*font-family: 'Antic Slab', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Oswald', Helvetica, sans-serif;
+
+font-family: 'PT Sans', sans-serif;
+font-family: 'Merriweather', serif;
+
+font-family: 'PT Sans Narrow', sans-serif;*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
 
 /* navbar */
 .navbar-default {
@@ -67,9 +84,14 @@
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
         color: #333;
     }
-}.navbar {
+}
+.navbar {
   height: 100px;
   background-color:  #D5DFD8;
+  font-family: 'Merriweather', serif;
+  font-weight: 800;
+  font-size: 1.25em;
+
 }
 
 .navbar-header {
@@ -81,13 +103,6 @@
   margin-left: 1em;
 }
 
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  padding: 15px;
-}
 
 .footer {
   position: fixed;
@@ -96,6 +111,9 @@
   height: 60px;
   background-color:  #D5DFD8;
   padding: 15px;
+  font-family: 'Merriweather', serif;
+  font-weight: 800;
+  font-size: 1.25em;
 }
 .numberInput input {
   width: 25%;
