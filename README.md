@@ -88,7 +88,7 @@ You will need the following things properly installed on your computer.
 
 This application uses a database tool called Firebase to store and manage its data. Firebase is a cloud services provider that offers real time databases. It constantly updates and syncs whenever the data changes.
 
-To utilize this functionality (necessary for editing, creating or destroying a post) please create a file in the src/app folder and name it api-keys.ts. The copy and paste the code below to access the database.
+To utilize this functionality (necessary for editing, creating or destroying a post) please create a file in the src/app folder and name it api-keys.ts. Then copy and paste the code below to access the database.
 
 ```````````````````
 
@@ -108,11 +108,13 @@ Clone the repository (address below) and follow the steps below to view and edit
 ### Installation
 
 1. `git clone <repository-url>` this repository (address below)
-2. `cd meals-test`
+2. `cd rubino-rentals`
 3. `npm install typescript -g`
 4. `apm install atom-typescript` (restart atom after this step)
 5. `npm install`
 6. `bower install`
+7. `ng build`
+8. `ng serve`
 
 ## Further help
 
